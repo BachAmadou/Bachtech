@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+/*DESIGN FOR THE SECTION-HEADER******************************************************/
+.brand {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 40px auto 40px auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* .logo:hover {
+    color: #fff;
+}
+.logo :focus {
+    color: #fff;
+}
+.line {
+    color: #fff;
+} */
+.section-1{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(2, 48, 79, 0.70) 100%, transparent 0%);
+}
+.header {
+    background: url('../image/banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 660px;
+    margin-bottom: 100px;  
+}
+.menu {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;   
+}
+.nav-item .nav-link {
+    color: #fff;
+    margin: auto 20px auto 20px;
+}
+.navbar.nav-link:focus {
+    background: #1e3953;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #1e3953;
+    color: #fff;
+    padding: 20px auto;
+}
+.title-banner {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 640px;
+    line-height: 1.65;   
+}
+.title-banner h1 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.start {
+    text-align: center;
+}
+.start-link {
+    color: #fff;
+    background: #93c83f;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none; 
+}
+.start-link:hover{
+    background: #1e3953;
+    color: #fff;
+    text-decoration: none;
+} 
+/*DESIGN FOR THE SECTION-ABOUT*******************************************************/
+.about {
+    background: url(../image/about.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 600px; 
+    margin-bottom: 100px;
+}
+.img-abt {
+    width: 700px;
+    height: 600px;
+}
+.text {
+    color: #fff;
+    padding-top: 50px;
+}
+.text-1 {
+    width: 400px;
+    background: #1e3953;
+    padding: 15px;
+    height: 500px;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+	-webkit-box-shadow: 2px 2px 3px 2px gray;
+  	-moz-box-shadow: 2px 2px 3px 2px gray;
+  	box-shadow: 6px 6px 6px 6px gray;
+}
+.text-1 h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.text-1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.65;
+    font-size: 16px;
+}
+.btn-about {
+    text-align: center;
+    margin-top: 40px;
+}
+.appointment {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.appointment:hover {
+    background: #93c83f;
+    color: #fff;
+    text-decoration: none;
+}
+.text-1 .appointment {
+    margin-top: 40px;
+}
+.text-2 .one-third {
+    background: #1e3953;
+    padding: 40px 5px;
+    margin-right: 50px;
+    text-align: center;
+    border-bottom: 1px solid #10223e;
+    box-sizing: border-box;
+	-webkit-box-shadow: 2px 2px 3px 2px gray;
+  	-moz-box-shadow: 2px 2px 3px 2px gray;
+  	box-shadow: 6px 6px 6px 6px gray;
+}
+.text-2 > :first-child {
+    margin-top: 80px;
+}
+/*DESIGN FOR THE SECTION-SERVICES***************************************************/
+.section-services {
+    background: url(../image/port-7.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 660px; 
+    margin-bottom: 100px; 
+    clear: both;   
+}
+.background {
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    min-height: 660px;
+}
+.serv {
+    padding: 15px;
+    text-align: justify;
+    min-height: 300px;
+    background: #1e3953;
+    color: #fff;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+	/* -webkit-box-shadow: 2px 2px 3px 2px gray;
+  	-moz-box-shadow: 2px 2px 3px 2px gray;
+      box-shadow: 6px 6px 6px 6px gray; */
+      
+      /* -webkit-box-shadow: 0 1px 3px rgba(100, 100, 100, 0.4), 0 0 40px rgba(100, 100, 100, 0.1) inset;
+      -moz-box-shadow: 0 1px 3px rgba(100, 100, 100, 0.4), 0 0 40px rgba(100, 100, 100, 0.1) inset;
+         box-shadow: 0 1px 3px rgba(100, 100, 100, 0.4), 0 0 40px rgba(100, 100, 100, 0.1) inset; */
+}
+.first-row {
+    margin-bottom: 30px;
+}
+.section-services h5 {
+    color: #93c83f;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.section-services h3{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6f8fad;
+    font-weight: bold;
+}
+.section-services p{
+    color: #fff;
+    line-height: 1.65;
+    font-size: 16px;
+}
+/*DESIGN FOR THE SECTION-PORTFOLIO***************************************************/
+.section-portfolio {
+    margin-bottom: 100px;
+    clear: both;
+}
+.portfolio-h3{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #6f8fad;
+    font-weight: bold;
+}
+.portfolio-web {
+    margin-bottom: 40px;
+}
+.port-row {
+    margin-right: 0px;
+}
+
+/*DESIGN FOR THE SECTION-CONTACT****************************************************/
+.section-contact {
+    background: #f4f4f4;
+    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #6f8fad;
+    font-weight: bold;
+}
+.contact-info {
+    margin-bottom: 40px;
+}
+.contact-form {   
+    text-align: center;
+}
+.contact-info .btn {
+    width: 200px;
+    background: #6f8fad;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-info .btn:hover {
+    background: #93c83f;
+    color: #fff;
+    cursor: pointer;
+}
+.icon {
+    position: absolute;
+    margin-left: -540px;
+    margin-top: 3px;
+}
+.input-style{
+    padding-left: 55px;
+}
+/*DESIGN FOR THE SECTION-CONTACT****************************************************/
+.section-footer {
+    background: #1e3953;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section-footer h5 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section-footer p {
+    color: #6f8fad;
+}
+.section-footer .img-social {
+    background: #6f8fad;
+    padding: 10px;
+}
+.section-footer .img-social:hover {
+    background: #93c83f;
+}
+.section-footer .nav-link {
+    color: #fff;
+}
+.section-footer .link-img {
+    padding-right: 10px;
+}
+.section-footer input {
+    height: 50px;
+    margin-right: 0;
+}
+.section-footer .nav-link:hover {
+    color: #93c83f;
+}
+.section-footer .envelope{
+    background: #93c83f;
+    color: #fff;
+    width: 70px;
+    height: 48px;
+    margin-left: -3px;
+    margin-top: 1px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.section-footer .input-icon {
+    width: 40px;
+    height: 38px;
+}
+.section-footer .envelope:hover {
+    background: #1e354a;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.footer-second{
+    background: #1e354a;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 4px;
+}
+.footer-second a {
+    color: #6f8fad;
+    text-decoration: none;
+}
+.footer-second a:hover {
+    color: #93c83f;
+}
